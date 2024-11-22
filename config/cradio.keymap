@@ -14,10 +14,6 @@
 #define CT(k1,k2,k3,k4,k5) &ht RC(N1) k1    &ht RC(N2) k2 &ht RC(N3) k3   &ht RC(N4) k4   &ht RC(N5) k5
 #define UDO(k1) &ht RC(Y) k1
 
-&led_strip {
-    chain-length = <46>;
-};
-
 &mt {
   //  flavor = "tap-preferred";
    // tapping_term_ms = <200>;
