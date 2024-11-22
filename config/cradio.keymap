@@ -126,7 +126,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &sys_reset  &trans     &kp C_VOL_UP    &bt BT_SEL 3 &bt BT_SEL 0    &out OUT_USB   &trans     &trans     &trans    &sys_reset
+           &sys_reset  &trans     &kp C_VOL_UP  &bt BT_SEL 3    &bt BT_SEL 0    &out OUT_USB   &trans     &trans     &trans    &sys_reset
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
           &bootloader  &trans     &kp C_VOL_DN    &bt BT_SEL 4  &bt BT_SEL 1   &out OUT_BLE   &trans      &trans     &trans    &bootloader
